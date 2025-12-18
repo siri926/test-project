@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hi Welcome! How are you? I am doing good. what about you?</h1>
+
+    <header>
+        <div class="left">My Webpage</div>
+        <div class="right">Sireesha</div>
+    </header>
+
+    <main>
+        <div class="tasks">
+            <h2>Tasks</h2>
+            <ul>
+                <li onclick="showContent('task1')">Task 1</li>
+                <li onclick="showContent('task2')">Task 2</li>
+                <li onclick="showContent('task3')">Task 3</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Task Details</h2>
+            <p id="taskContent">Click a task to see details.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
