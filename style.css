@@ -10,6 +10,9 @@ header {
     color: white;
     padding: 15px 20px;
     font-size: 20px;
+    border-bottom: 3px solid #444;
+    /* bottom border */
+
 }
 
 main {
